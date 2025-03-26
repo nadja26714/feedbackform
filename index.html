@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="feedback-block">
+            <div class="feedback-icon">
+                <img src="./icons/smile-icon.svg" alt="icon">
+            </div>
+            <div class="feedback-description">
+                <h2 class="title">Обратная связь</h2>
+                <p class="short-description">
+                    Напиши свое сообщение, и мы постараемся дать ответ в самое ближайщее время
+                </p>
+            </div>
+            <div class="feedback-inputs">
+                <div class="input-name">
+                    <input type="text" id="name" name="name" placeholder="Ваше имя">
+                </div>
+                <div class="feedback-select">
+                    <select name="select" id="select">
+                        <option class="item" value="value" disabled selected hidden>Тема обращения...</option>
+                        <option class="item" value="value1">Предложение</option>
+                        <option class="item" value="value2">Проблема</option>
+                        <option class="item" value="value3">Оплата</option>
+                        <option class="item" value="value4">Другое</option>
+                    </select>
+                </div>
+                <div class="input-description">
+                    <textarea name="text" id="text" placeholder="Текст сообщения..."></textarea>
+                </div>
+            </div>
+            <div class="button">
+                <a href="">Отправить</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
